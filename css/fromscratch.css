@@ -1,0 +1,130 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the page */
+
+    body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #333;
+    animation: color-change 6s linear infinite;
+        color: #fff;
+}
+
+
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.hero {
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+ol, ul {
+    margin: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+section {
+    margin: 40px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.div1, .div2, .div3 {
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+    margin: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.custom-title {
+    text-align: center;
+    font-size: 48px;
+    margin: 40px 0;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@keyframes color-change {
+    0%, 100% {
+        background-color: #333;
+    }
+    50% {
+        background-color: #000;
+    }
+}
+
+.spaced-section {
+  margin-bottom: 80px; /* Adjust this value to increase or decrease the spacing between sections */
+}
